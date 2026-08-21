@@ -1,0 +1,7 @@
+{
+  "data_referencia": "datetime64[us]",
+  "mercado": "str",
+  "ativo": "str",
+  "contratos_em_aberto": "int64",
+  "valor_referencial_mil_r": "float64"
+}

@@ -1,0 +1,6 @@
+# Opcional. O pyarrow acelera a leitura e preserva os tipos no curated, mas o
+# pipeline funciona sem ele (cai para CSV + schema.json).
+#
+# Se a instalação falhar com "Failed to build 'pyarrow'", significa que não há
+# wheel para o seu Python. Ignore este arquivo — nada quebra.
+pyarrow>=18

@@ -1,0 +1,20 @@
+{"table":{"id":692,"name":"AnalyticalFramework2",
+"friendlyNamePt":"Quadro analítico das posições em aberto",
+"friendlyNameEn":"Analystical framework for open interest",
+"limitDate":"D-21","defaultDate":"","hasHistory":false,"pageCount":1,
+"showPagination":true,"transpose":false,"groupType":0,"columnOrder":"6",
+"columns":[
+ {"id":2,"name":"DateRef","type":4,"friendlyName":"Data de referência","friendlyNamePt":"Data de referência","format":"DD/MM/YYYY","columnAlignment":2,"valueAlignment":2,"isVisible":true,"hideColumn":false,"order":2},
+ {"id":3,"name":"TckrSymb","type":5,"friendlyNamePt":"Mercado","columnAlignment":1,"valueAlignment":1,"isVisible":true,"hideColumn":false,"order":3},
+ {"id":4,"name":"Asst","type":5,"friendlyNamePt":"Ativo","columnAlignment":1,"valueAlignment":1,"isVisible":true,"hideColumn":false,"order":4},
+ {"id":5,"name":"OpnIntrst","type":2,"friendlyNamePt":"Contratos em aberto","columnAlignment":3,"valueAlignment":3,"isVisible":true,"hideColumn":false,"order":5},
+ {"id":6,"name":"RefValue","type":1,"friendlyNamePt":"Valor referencial (mil R$)","format":".00","columnAlignment":3,"valueAlignment":3,"isVisible":true,"hideColumn":false,"order":6}],
+"values":[
+ ["2026-08-19T00:00:00","Opções sobre Futuro de D11 - opção sobre futuro - compra","D11",5,0.07,null],
+ ["2026-08-19T00:00:00","Opções sobre Futuro de D17 - opção sobre futuro - venda","D17",10000,142.5,null],
+ ["2026-08-19T00:00:00","Dólar da Nova Zelândia - futuro","NZD",1,231.48615,null],
+ ["2026-08-19T00:00:00","Opções sobre Futuro de D14 - opção sobre futuro - venda","D14",20000,270,null],
+ ["2026-08-19T00:00:00","Franco Suiço - futuro","CHF",1,326.6892,null]],
+"availableTickers":["Boi Gordo - futuro","Boi Gordo - opção sobre futuro - compra"],
+"children":[],"texts":[],"charts":[],"tableLinks":[],"classificationsIds":[]},
+"status":6,"lastUpdateDate":"2026-08-20T08:06:03.323"}

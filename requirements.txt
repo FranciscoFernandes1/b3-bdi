@@ -1,0 +1,5 @@
+# Dependências obrigatórias. Sem pins rígidos de propósito: pin de versão exata
+# quebra assim que sai um Python novo sem wheel pra aquela versão.
+requests>=2.32
+pandas>=2.2
+playwright>=1.47
