@@ -2,10 +2,15 @@ name: Atualiza BDI B3
 
 on:
   schedule:
-    # 01:30 UTC = 22:30 em Brasília (UTC-3, sem horário de verão desde 2019).
-    # Ter-Sáb em UTC corresponde a Seg-Sex em Brasília.
-    # O BDI sai à noite: às 17h ainda não está publicado.
-    - cron: "30 1 * * 2-6"
+    # 13:30 UTC = 10:30 em Brasília (UTC-3, sem horário de verão desde 2019).
+    # Aqui o UTC cai no MESMO dia que o horário local, então é Seg-Sex (1-5).
+    # Atenção ao mexer no horário: se a hora UTC for menor que 03:00, a data
+    # em Brasília é a do dia anterior e o intervalo vira 2-6.
+    #
+    # Pela manhã a B3 já teve a noite inteira para publicar o BDI do pregão
+    # anterior. A série fica um dia atrás do pregão corrente por construção —
+    # a janela deslizante recupera o dia atual na execução seguinte.
+    - cron: "30 13 * * 1-5"
   workflow_dispatch:
     inputs:
       dias:
