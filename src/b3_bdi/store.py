@@ -25,6 +25,7 @@ wheel de pyarrow, o pipeline segue funcionando pelo CSV.
 from __future__ import annotations
 
 import gzip
+import io
 import json
 import logging
 from datetime import date
@@ -56,8 +57,24 @@ def salvar_raw(payload: Any, dia: date) -> None:
     destino = cfg.DIR_RAW / f"{dia:%Y}" / f"{dia:%m}"
     destino.mkdir(parents=True, exist_ok=True)
     caminho = destino / f"{dia.strftime(cfg.DATE_FMT_FILE)}.json.gz"
-    with gzip.open(caminho, "wt", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, separators=(",", ":"))
+
+    # mtime=0 no cabeçalho gzip. Sem isso, o gzip grava o horário da escrita e
+    # o mesmo conteúdo produz bytes diferentes a cada execução: os arquivos
+    # aparecem como "modificados" em todo commit sem nada ter mudado, o
+    # histórico do git perde valor de auditoria e o repositório incha à toa.
+    novo = io.BytesIO()
+    with gzip.GzipFile(fileobj=novo, mode="wb", mtime=0) as gz:
+        with io.TextIOWrapper(gz, encoding="utf-8") as txt:
+            json.dump(payload, txt, ensure_ascii=False,
+                      separators=(",", ":"), sort_keys=True)
+    conteudo = novo.getvalue()
+
+    # Não reescreve arquivo idêntico: preserva o mtime no disco e mantém o
+    # `git diff` limpo mesmo se o conteúdo for reprocessado.
+    if caminho.exists() and caminho.read_bytes() == conteudo:
+        return
+
+    caminho.write_bytes(conteudo)
     log.info("raw gravado: %s", caminho.relative_to(cfg.ROOT))
 
 
