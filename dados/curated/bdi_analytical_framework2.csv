@@ -5265,3 +5265,71 @@
 2026-11-17;TAXA MÉDIA DE DEPÓSITOS INTERFINANCEIROS DE UM DIA - futuro;DI1;42802658;3449215520,80698
 2026-11-17;Opções sobre IDI - opção sobre disponível - compra;IDI;7236564;4056990625,7
 2026-11-17;Opções sobre IDI - opção sobre disponível - venda;IDI;38775218;21831038636,6
+2026-11-18;Opções sobre Futuro de D11 - opção sobre futuro - compra;D11;5;0,07
+2026-11-18;Opções sobre Futuro de D17 - opção sobre futuro - venda;D17;10000;142,5
+2026-11-18;Dólar da Nova Zelândia - futuro;NZD;1;242,34892
+2026-11-18;Franco Suiço - futuro;CHF;1;349,71455
+2026-11-18;Peso Mexicano - futuro;MXN;2;468,94664
+2026-11-18;Coroa Sueca por Dólar dos Estados Unidos da América - futuro;SEK;10;583,4188
+2026-11-18;Dólar Australiano - futuro;AUD;3;710,4402
+2026-11-18;Dólar Canadense - futuro;CAD;4;986,49504
+2026-11-18;Futuro de Solana - futuro;SOL;838;1780,06284
+2026-11-18;FUTURO CONILON - futuro;CNL;20;1930,0
+2026-11-18;Coroa Norueguesa por Dólar dos Estados Unidos da América - futuro;NOK;49;2865,87623
+2026-11-18;Futuro de DAX - futuro;DAX;6;4965,85188
+2026-11-18;Futuro de Euro Stoxx 50 - futuro;ESX;17;6714,49238
+2026-11-18;Futuro de Ethereum - futuro;ETR;3303;8441,51013
+2026-11-18;Futuro de Taxa de Juros Americana - futuro;SFR;102;11466,12586
+2026-11-18;Minicontrato de Dólar Comercial - opção sobre disponível - venda;WDO;258;13202,0
+2026-11-18;US Treasury 10 Ultra - futuro;T1U;22;13690,82396
+2026-11-18;Café Arábica 4/5 - opção sobre futuro - venda;ICF;83;14996,1262
+2026-11-18;US Treasury Bonds de 30 Anos - futuro;TBN;29;17914,82714
+2026-11-18;Minicontrato de Dólar Comercial - opção sobre disponível - compra;WDO;397;21391,25
+2026-11-18;Dólar dos Estados Unidos da América por Dólares Australianos - futuro;AUS;555;21770,7297
+2026-11-18;Libra Esterlina - futuro;GBP;95;25701,528
+2026-11-18;US Treasury Note de 2 Anos - futuro;T02;31;36711,67994
+2026-11-18;Etanol Hidratado - opção sobre futuro - compra;ETH;520;45300,0
+2026-11-18;Minicontrato de Soja do CME Group - opção sobre futuro - compra;SJC;688;55036,465855
+2026-11-18;US Treasury Note de 5 Anos - futuro;T05;91;55125,57141
+2026-11-18;Iene Japonês - futuro;JPY;299;55292,4977
+2026-11-18;Minicontrato de Euro - futuro;WEU;927;59872,6125
+2026-11-18;Iuan Chinês por Dólar dos Estados Unidos da América - futuro;CNH;1310;76373,6419
+2026-11-18;Minicontrato de Soja do CME Group - opção sobre futuro - venda;SJC;1165;82171,988169
+2026-11-18;Futuro de Bitcoin - futuro;BIT;22646;83410,20012
+2026-11-18;Iene Japonês por Dólar dos Estados Unidos da América - futuro;JAP;2005;116901,0438
+2026-11-18;Franco Suíço por Dólar dos Estados Unidos da América - futuro;SWI;2428;141452,03576
+2026-11-18;Café Arábica 4/5 - opção sobre futuro - compra;ICF;733;151288,8927
+2026-11-18;Dólar Canadense por Dólar dos Estados Unidos da América - futuro;CAN;3152;183928,9712
+2026-11-18;Dólar dos Estados Unidos da América por Libra Esterlina - futuro;GBR;3243;249137,6376
+2026-11-18;Peso Mexicano por Dólar dos Estados Unidos da América - futuro;MEX;4658;272647,4127
+2026-11-18;Minicontrato de Soja do CME Group - futuro;SJC;4129;292411,1642
+2026-11-18;Índice Brasil 50 - futuro;BRI;1223;347698,9
+2026-11-18;Euro - futuro;EUR;1260;406901,25
+2026-11-18;COPOM - opção sobre disponível - compra;CPM;12708524;1271837,12875
+2026-11-18;Café Arábica 4/5 - futuro;ICF;7670;1508769,11482
+2026-11-18;BVMF de Índice S&P500 - opção sobre futuro - compra;ISP;701;1594812,747
+2026-11-18;Etanol Hidratado - futuro;ETH;20425;1939053,57
+2026-11-18;Dólar dos Estados Unidos da América por Euro - futuro;EUP;35028;2248479,54576
+2026-11-18;US TREASURY NOTE DE 10 ANOS - futuro;T10;4373;2687689,18016
+2026-11-18;BVMF de Índice S&P500 - opção sobre futuro - venda;ISP;1384;2839764,301
+2026-11-18;FUTURO OURO FINO - futuro;GLD;132433;2889722,65748
+2026-11-18;Milho - opção sobre futuro - venda;CCM;93677;3006751,6125
+2026-11-18;Boi Gordo - opção sobre futuro - venda;BGI;27318;3320203,755
+2026-11-18;Milho - futuro;CCM;151113;4864286,22989
+2026-11-18;Milho - opção sobre futuro - compra;CCM;132778;4900075,875
+2026-11-18;Boi Gordo - opção sobre futuro - compra;BGI;38056;5061059,85
+2026-11-18;Boi Gordo - futuro;BGI;54607;7293921,22987
+2026-11-18;Microcontrato de Índice S&P500 - futuro;WSP;104792;11239719,55664
+2026-11-18;BVMF de Índice S&P500 - futuro;ISP;10509;22543365,27123
+2026-11-18;Ibovespa - futuro;IND;201411;34052248,569
+2026-11-18;Minicontrato de Ibovespa - futuro;WIN;1442193;48713816,4974
+2026-11-18;Dólar Comercial - opção sobre disponível - venda;DOL;264125;73270798,75
+2026-11-18;Swap Cambial de OC1 - termo;SCS;1805000;90250000,0
+2026-11-18;Minicontrato de Dólar Comercial - futuro;WDO;1825008;107033139,06162
+2026-11-18;Dólar Comercial - opção sobre disponível - compra;DOL;606264;180307223,75
+2026-11-18;Dólar Comercial - futuro;DOL;1023516;300141152,7902
+2026-11-18;CUPOM DE IPCA - futuro;DAP;3461832;485016800,85548
+2026-11-18;Cupom Cambial de DI1 - futuro;DDI;4790679;1313064503,44601
+2026-11-18;TAXA MÉDIA DE DEPÓSITOS INTERFINANCEIROS DE UM DIA - futuro;DI1;42796624;3445711479,28565
+2026-11-18;Opções sobre IDI - opção sobre disponível - compra;IDI;7236564;4056990625,7
+2026-11-18;Opções sobre IDI - opção sobre disponível - venda;IDI;39987942;22524589144,0
